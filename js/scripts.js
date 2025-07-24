@@ -1,11 +1,15 @@
-/*!
-* Start Bootstrap - Creative v7.0.7 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
+// LANDING PAGE
+$(document).ready(function () {
+    $('#enterBtn').on('click', function () {
+        $('#landingContent').addClass('fade-out');
+        setTimeout(function () {
+            window.location.href = 'main.html';
+        }, 1000); // match fade-out duration
+    });
+});
+
+
+// MAIN CONTENT
 
 window.addEventListener('DOMContentLoaded', event => {
 
