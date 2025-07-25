@@ -192,6 +192,19 @@ footer {
     font-size: 5rem;
 }
 
+.team-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+
+.team-card {
+    border: 1px solid #dee2e6;
+    background-color: transparent;
+    padding-bottom: 1rem;
+}
+
 
 
 
@@ -271,6 +284,11 @@ footer {
 
     .team-h1-5 {
         font-size: 2.5rem;
+    }
+
+    .team-img {
+        max-width: 140px;
+        height: auto;
     }
 
     /* Contact Section */
