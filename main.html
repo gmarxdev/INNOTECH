@@ -163,8 +163,10 @@
                 </div>
             </div>
         </div>
-        
-        <!-- Reusable Modal when image is clicked the clicked image will pop up to bigger view -->
+
+    </section>
+
+    <!-- Reusable Modal when image is clicked the clicked image will pop up to bigger view -->
         <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content bg-transparent border-0">
@@ -174,8 +176,6 @@
                 </div>
             </div>
         </div>
-
-    </section>
 
     <!-- Team Section -->
     <section class="team-section py-5" id="team">
@@ -188,9 +188,11 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                     <div class="card team-card w-100 shadow text-center">
                         <div class="card-header bg-transparent p-3 border-0">
-                            <img src="assets/img/portfolio/profiles/gielo.jpg" 
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img-src="assets/img/portfolio/achievements/14.jpg">
+                                <img src="assets/img/portfolio/profiles/gielo.jpg" 
                                 alt="Gielo Mar Bandoy" 
                                 class="team-img rounded mx-auto d-block">
+                            </a>
                         </div>
                         <div class="card-body">
                             <h5 class="mb-1 fw-bold">GIELO MAR R. BANDOY</h5>
@@ -330,8 +332,12 @@
         <div>Copyright &copy; <span id="date"></span> - CPE TEAM</div>
     </footer>
 
+
+    <!-- jQuery (first) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <!-- Bootstrap Bundle JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Auto Update Year -->
     <script>
         document.getElementById("date").textContent = new Date().getFullYear();
