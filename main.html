@@ -86,7 +86,9 @@
                 <h2 class="text-center">Portfolio</h2>
                 <div class="row g-4 mt-4">
                     <div class="col-sm-6 col-lg-4">
-                        <img src="assets/img/portfolio/achievements/1.jpg" class="img-fluid shadow rounded" alt="Project 1">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal1">
+                            <img src="assets/img/portfolio/achievements/1.jpg" class="img-fluid shadow rounded" alt="Project 1">
+                        </a>
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <img src="assets/img/portfolio/achievements/2.jpg" class="img-fluid shadow rounded" alt="Project 2">
@@ -129,6 +131,16 @@
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <img src="assets/img/portfolio/achievements/15.jpg" class="img-fluid shadow rounded" alt="Project 3">
+                    </div>
+                </div>
+            </div>
+            <!-- Modal when image is clicked the clicked image will pop up to bigger view -->
+            <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="imageModalLabel1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content bg-transparent border-0">
+                    <div class="modal-body text-center">
+                        <img src="assets/img/portfolio/achievements/15.jpg" class="img-fluid rounded shadow" alt="Full Image">
+                    </div>
                     </div>
                 </div>
             </div>
