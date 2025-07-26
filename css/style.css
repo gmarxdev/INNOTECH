@@ -269,7 +269,7 @@ footer {
 
     /* About Section */
     .about-section {
-        height: auto;
+        min-height: 100vh;
         padding: 4rem 1rem;
         background-position: center top;
     }
