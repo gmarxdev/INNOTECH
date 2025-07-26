@@ -8,7 +8,8 @@ $(document).ready(function () {
     });
 
     $('#imageModal').on('show.bs.modal', function (e) {
-        $('#modalImage').attr('src', $(e.relatedTarget).data('img-src'));
+        const imgSrc = $(e.relatedTarget).data('img-src') || $(e.relatedTarget).find('img').attr('src');
+        $('#modalImage').attr('src', imgSrc);
     });
 });
 
