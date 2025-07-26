@@ -249,7 +249,7 @@ footer {
 
 /* THIS IS FOR THE MOBILE VIEW */
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     /* Global font size */
     body {
         font-size: 0.95rem;
@@ -257,7 +257,7 @@ footer {
 
     /* Hero Section */
     .hero-section {
-        height: 100vh;
+        min-height: 100vh;
         padding: 4rem 1rem;
         background-position: center top;
     }
@@ -268,7 +268,7 @@ footer {
 
     /* About Section */
     .about-section {
-        height: 100vh;
+        min-height: 100vh;
         padding: 4rem 1rem;
         background-position: center top;
     }
