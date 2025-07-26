@@ -144,6 +144,7 @@ footer {
 
 /* About Section */
 .about-section {
+    height: auto;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 40, 60, 0.85)),
                 url('../assets/img/bg-tech.jpg') no-repeat center center/cover;
     height: 100vh;
@@ -166,7 +167,7 @@ footer {
 /* About Section */
 .services-section {
     background-color: #001f3e;
-    height: 130vh;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
@@ -188,7 +189,7 @@ footer {
 .team-section {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 40, 60, 0.85)),
             url('../assets/img/bg-tech.jpg') no-repeat center center/cover;
-    min-height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
@@ -257,7 +258,7 @@ footer {
 
     /* Hero Section */
     .hero-section {
-        min-height: 100vh;
+        height: auto;
         padding: 4rem 1rem;
         background-position: center top;
     }
@@ -268,7 +269,7 @@ footer {
 
     /* About Section */
     .about-section {
-        min-height: 100vh;
+        height: auto;
         padding: 4rem 1rem;
         background-position: center top;
     }
