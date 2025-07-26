@@ -6,6 +6,10 @@ $(document).ready(function () {
             window.location.href = 'main.html';
         }, 1000); // match fade-out duration
     });
+
+    $('#imageModal').on('show.bs.modal', function (e) {
+        $('#modalImage').attr('src', $(e.relatedTarget).data('img-src'));
+    });
 });
 
 
