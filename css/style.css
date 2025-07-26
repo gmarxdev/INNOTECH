@@ -249,7 +249,7 @@ footer {
 
 /* THIS IS FOR THE MOBILE VIEW */
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     /* Global font size */
     body {
         font-size: 0.95rem;
