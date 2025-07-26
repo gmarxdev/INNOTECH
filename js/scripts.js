@@ -11,6 +11,13 @@ $(document).ready(function () {
         const imgSrc = $(e.relatedTarget).data('img-src') || $(e.relatedTarget).find('img').attr('src');
         $('#modalImage').attr('src', imgSrc);
     });
+
+    // // Optional Pure Java Code for modal
+    // document.getElementById('imageModal').addEventListener('show.bs.modal', function (e) {
+    //     const trigger = e.relatedTarget;
+    //     const imgSrc = trigger.getAttribute('data-img-src');
+    //     document.getElementById('modalImage').src = imgSrc;
+    // });
 });
 
 
