@@ -46,9 +46,11 @@
 
 /* Global font */
 body {
+    min-height: 100vh;
     font-family: 'Rajdhani', sans-serif;
     background-color: #000; /* black background for contrast */
     color: #e0e0e0;
+    width: 100%;
 }
 
 a {
