@@ -155,21 +155,13 @@ footer {
 /* About Section */
 .about-section {
     height: auto;
-    background: url('../assets/img/portfolio/logo/bg/logo.png') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 40, 60, 0.85)) !important;
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-/* Responsive background logo for About Section */
-@media (max-width: 768px) {
-    .about-section {
-        background: url('assets/img/portfolio/logo/bg/logo.png') no-repeat center 40px/120px auto;
-        /* Shrink logo and move it down a bit for mobile */
-    }
 }
 
 .about-h1-5 {
